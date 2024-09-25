@@ -83,7 +83,7 @@ const PokemonTypeChart: React.FC<PokemonTypeChartProps> = ({ typeCount }) => {
     <>
       <h2 className="text-xl text-center mb-8">Pokémon Count By Type</h2>
 
-      <div className="flex mb-8 space-x-4">
+      <div className="flex mb-8 flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
         <Button
           variant="outline"
           className="rounded"

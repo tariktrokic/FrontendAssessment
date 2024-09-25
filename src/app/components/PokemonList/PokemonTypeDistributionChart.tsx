@@ -23,7 +23,7 @@ const PokemonTypeDistributionChart: React.FC<
 
   return (
     <>
-      <h2 className="text-xl text-center mb-8">
+      <h2 className="text-xl text-center mb-8 mt-4">
         Single-type vs Dual-type Pokémon Distribution
       </h2>
       <ResponsiveContainer width="100%" height={400}>
